@@ -2,11 +2,9 @@ import re
 
 file_object = open(r"input.txt","r")
 
-count =0
+count = 0
 valid = 0
 valid1 = 0
-num1 = 0
-num2 = 0
 
 #split password string
 def split(inputstring):
